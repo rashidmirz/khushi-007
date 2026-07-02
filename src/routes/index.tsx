@@ -277,7 +277,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14 grid md:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center gap-3">
-            <img src={logoAsset.url} alt="" className="h-14 w-14 rounded-full" />
+            <img src={logoAsset} alt="" className="h-14 w-14 rounded-full" />
             <div>
               <div className="font-bold text-xl text-primary" style={{ fontFamily: "Dancing Script, cursive" }}>Khushiii Foundation</div>
               <div className="text-[10px] tracking-[0.25em] uppercase text-muted-foreground">Educate • Nourish • Empower</div>
