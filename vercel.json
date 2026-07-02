@@ -1,15 +1,10 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/server",
-  "framework": "tanstack-start",
-  "devCommand": "npm run dev",
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "rewrites": [
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/server.js"
+      "src": "src/server.ts",
+      "use": "@vercel/node"
     }
-  ]
+  ],
+  "buildCommand": "vite build",
+  "outputDirectory": "dist"
 }
